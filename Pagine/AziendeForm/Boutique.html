@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Calcola Boutique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Boutique_Utils/Style_Boutique.css">
+    <script src="Boutique_Utils/Script_Boutique.js"></script>
+</head>
+<body>
+    <h1 class="Titolo">Boutique</h1>
+    <a href="../index.html"><button class="back">Torna home</button></a>
+    <button class="copiaSc" onclick="Cscontrino()">Copia Scontrino</button>
+    <span></span>
+    <h1 class="SubTitolo"><b style="color: red;">Attenzione, qui ci sono due categorie</b><br><br>Alcuni vanno a stack<br> e altri a 8</h1>
+    <h1 id="esito" class="esito"></h1>
+    <button class="gen" id="gen" onclick="genWrite()">Genera</button>
+    <h1 id="Fact" class="Fact"></h1>
+    <h1 id="sc" class="sc"></h1>
+    <form id = "form">
+
+        <h1 class="item">Dati:</h1>
+
+        <div class="form-row">
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" name="cliente" placeholder="Nome Cliente" required>
+        
+
+        
+            <label for="azienda">Azienda:</label>
+            <input type="text" id="azienda" name="azienda" value="Boutique" readonly>
+        </div>
+
+        <div class="form-row">
+            <label for="data_ora">Data e ora:</label>
+            <input type="text" id="data_ora" name="data_ora" placeholder="Data e Ora" required>
+        
+
+        
+            <label for="numero_fattura">Numero fattura:</label>
+            <input type="number" id="numero_fattura" name="numero_fattura" min="1" max="999" value="1" required>
+        </div>
+
+        <h1 class="item">Item: (stack da 8)</h1>
+
+
+        <div class="form-row">
+            <label for="Stendardo_semplice">Stendardo semplice:</label>
+            <input type="number" id="Stendardo_semplice" name="Stendardo_semplice" min="0"  value="0">
+
+            <label for="Stendardo_modificato">Stendardo modificato:</label>
+            <input type="number" id="Stendardo_modificato" name="Stendardo_modificato" min="0"  value="0">
+
+        </div>
+
+        <h1 class="item">Item: (stack da 64)</h1>
+
+        <div class="form-row">
+            <label for="Fuochi_artificio">Fuochi artificio:</label>
+            <input type="number" id="Fuochi_artificio" name="Fuochi_artificio" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <button type="button" onclick="calcolaFattura()">Calcola</button>
+            <button type="button" onclick = "window.location.reload(true);">Reset</button>
+        </div>
+        <br><br><br><br><br><br>
+    </form>
+    <footer class="footer">
+        <p class="footer-text"><B>Fatto da EnderBeast_ | @EnderBeast</B></p>
+      </footer>
+</body>
+</html>

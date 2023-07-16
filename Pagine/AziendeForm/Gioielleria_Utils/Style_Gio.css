@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Cubical'; 
+    src: url('Font/Minecraft.ttf'); 
+  }
+
+body{
+
+    background: radial-gradient(circle at top left, #dffafb, #005b74);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.footer {
+    background-color: #525151;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .footer-text {
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+  }
+
+.Titolo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Cubical';
+    color: rgb(4, 150, 223);
+    font-size: 50px;
+    padding-left: 10px;
+  }
+.slider {
+    width: 200px;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 150px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.form-row input[type="text"],
+.form-row input[type="number"] {
+    width: 300px;
+}
+
+
+form{
+
+  position: absolute;
+  padding-top: 10px;
+  top: 20%;
+
+}
+
+.esito{
+
+  position: absolute;
+  right: 100px;
+  padding-right: 40px;
+  color: rgb(255, 155, 40);
+
+}
+
+.gen{
+
+  position: absolute;
+  right: 100px;
+  top: 350px;
+  padding-right: 40px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  background-color: lightgreen;
+  color: green;
+  visibility: hidden;
+
+}
+
+.Fact
+{
+  position: absolute;
+  right: 100px;
+  top: 500px;
+  padding-right: 40px;
+  color: rgb(223, 168, 6);
+  font-weight: bold;
+}
+
+.sc
+{
+  position: absolute;
+  right: 100px;
+  margin-top: 140px;
+  padding-right: 40px;
+  padding-top: 50px;
+  color: rgb(223, 168, 6);
+  font-weight: bold;
+}
+
+form h1{
+
+  font-family: 'Cubical';
+  font-size: 40px;
+  color: rgb(5, 38, 136); 
+  padding-left: 10px;
+
+}
+
+form input{
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  position: relative;
+  left: 10px;
+}
+
+
+form label{
+  font-size: 30px;
+  color: red;
+  
+}
+
+.back
+{
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  background-color: lightgreen;
+  color: green;
+  position: relative;
+  top: 100px;
+}
+
+.copiaSc
+{
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  background-color: lightgreen;
+  color: green;
+  position: relative;
+  top: 100px;
+  
+}
+.SubTitolo{
+
+    color: rgb(135, 207, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    padding-left: 10px;
+
+}
+
+
+form button{
+padding-left: 10px;
+border-radius: 6px;
+font-size: 20px;
+font-weight: bold;
+width: 100px;
+height: 50px;
+background-color: lightgreen;
+color: green;
+position: relative;
+top: 50px;
+
+}
