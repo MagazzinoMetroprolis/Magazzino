@@ -151,7 +151,7 @@ form h1{
 
 }
 
-form input,select{
+form input{
   border-radius: 5px;
   width: 100px;
   height: 50px;
@@ -160,7 +160,15 @@ form input,select{
   left: 10px;
 }
 
-
+form select
+{
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  position: relative;
+  left: 10px;
+}
 
 
 form label{
