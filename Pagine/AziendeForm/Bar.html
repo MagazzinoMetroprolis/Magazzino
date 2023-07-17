@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar</title>
+    <link rel="stylesheet" href="Bar_Utils/Style_Bar.css">
+    <script src="Bar_Utils/Script_Bar.js"></script>
+</head>
+<body>
+    
+    <h1 class="Titolo">Bar</h1>
+    <a href="../Rifornimenti.html"><button class="back">Torna home</button></a>
+    <button class="copiaSc" onclick="Cscontrino()">Copia Scontrino</button>
+    <span></span>
+    <h1 class="SubTitolo"><b style="color: red;">Ogni valore vale uno stack!</b><br><br>Es: se metto 2 HotDog saranno<br> due stack di essi</h1>
+    <h1 id="esito" class="esito"></h1>
+    <button class="gen" id="gen" onclick="genWrite()">Genera</button>
+    <h1 id="Fact" class="Fact"></h1>
+    <h1 id="sc" class="sc"></h1>
+    <form id = "form">
+
+        <h1 class="item">Dati:</h1>
+
+        <div class="form-row">
+            <label for="cliente">Cliente:</label>
+            <input type="text" id="cliente" name="cliente" placeholder="Nome Cliente" required>
+        
+
+        
+            <label for="azienda">Azienda:</label>
+            <input type="text" id="azienda" name="azienda" value="Bar" readonly>
+        </div>
+
+        <div class="form-row">
+            <label for="data_ora">Data e ora:</label>
+            <input type="text" id="data_ora" name="data_ora" placeholder="Data e Ora" required>
+        
+
+        
+            <label for="numero_fattura">Numero fattura:</label>
+            <input type="number" id="numero_fattura" name="numero_fattura" min="1" max="999" value="1" required>
+        </div>
+
+        <h1 class="item">Item:</h1>
+
+
+        <div class="form-row">
+            <label for="hotdog">HotDog:</label>
+            <input type="number" id="hotdog" name="hotdog" min="0"  value="0">
+
+            <label for="hotdog">Sushi:</label>
+            <input type="number" id="Sushi" name="Sushi" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Hamburger">Hamburger:</label>
+            <input type="number" id="Hamburger" name="Hamburger" min="0"  value="0">
+
+            <label for="Pane">Pane:</label>
+            <input type="number" id="Pane" name="Pane" min="0"  value="0">
+        </div>
+
+
+        
+        <div class="form-row">
+            <label for="Tacos">Tacos:</label>
+            <input type="number" id="Tacos" name="Tacos" min="0"  value="0">
+
+            <label for="Gelati">Gelati:</label>
+            <input type="number" id="Gelati" name="Gelati" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Ghiaccioli">Ghiaccioli:</label>
+            <input type="number" id="Ghiaccioli" name="Ghiaccioli" min="0"  value="0">
+
+            <label for="Succhi_di_frutta">Succhi di frutta:</label>
+            <input type="number" id="Succhi_di_frutta" name="Succhi_di_frutta" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Pringles">Pringles:</label>
+            <input type="number" id="Pringles" name="Pringles" min="0"  value="0">
+
+            <label for="Pepsi">Pepsi:</label>
+            <input type="number" id="Pepsi" name="Pepsi" min="0"  value="0">
+        </div>
+
+
+        <div class="form-row">
+            <label for="Caffe">Caffè:</label>
+            <input type="number" id="Caffe" name="Caffe" min="0"  value="0">
+
+            <label for="Caffe_Macchiato">Caffè Macchiato:</label>
+            <input type="number" id="Caffe_Macchiato" name="Caffe_Macchiato" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Milkshake">Milkshake:</label>
+            <input type="number" id="Milkshake" name="Milkshake" min="0"  value="0">
+
+            <label for="Gin_Lemon">Gin Lemon:</label>
+            <input type="number" id="Gin_Lemon" name="Gin_Lemon" min="0"  value="0">
+        </div>
+
+
+        <div class="form-row">
+            <label for="Birra">Birra:</label>
+            <input type="number" id="Birra" name="Birra" min="0"  value="0">
+
+            <label for="Blue_Angel">Blue Angel:</label>
+            <input type="number" id="Blue_Angel" name="Blue_Angel" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Mojito">Mojito:</label>
+            <input type="number" id="Mojito" name="Mojito" min="0"  value="0">
+
+            <label for="Codeina">Codeina:</label>
+            <input type="number" id="Codeina" name="Codeina" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Vodka">Vodka:</label>
+            <input type="number" id="Vodka" name="Vodka" min="0"  value="0">
+
+            <label for="Whisky">Whisky:</label>
+            <input type="number" id="Whisky" name="Whisky" min="0"  value="0">
+        </div>
+
+        <div class="form-row">
+            <label for="Cornetti">Cornetti:</label>
+            <input type="number" id="Cornetti" name="Cornetti" min="0"  value="0">
+
+                <label for="Gianduiotti">Gianduiotti:</label>
+                <input type="number" id="Gianduiotti" name="Gianduiotti" min="0"  value="0">
+        </div>
+
+
+
+
+        <div class="form-row">
+            <button type="button" onclick="calcolaFattura()">Calcola</button>
+            <button type="button" onclick = "window.location.reload(true);">Reset</button>
+        </div>
+        <br><br><br><br><br><br>
+    </form>
+    <footer class="footer">
+        <p class="footer-text"><B>Fatto da EnderBeast_ | @EnderBeast</B></p>
+      </footer>
+</body>
+</html>
