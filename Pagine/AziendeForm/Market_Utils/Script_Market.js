@@ -11,7 +11,8 @@ var prezzi = [
     { nome: "Completo_Scheletro", prezzo: 13440, val: 1 },
     { nome: "Completo_Creeper", prezzo: 13440, val: 1 },
     { nome: "Completo_Chanel", prezzo: 13440, val: 1 },
-    { nome: "Cappello_Elegante_Giacca_Burberry", prezzo: 1345, val: 1 },
+    { nome: "Cappello_Elegante", prezzo: 1345, val: 1 }, 
+    { nome: "Giacca_Burberry", prezzo: 560, val: 1 }, 
     { nome: "Jeans_Zara", prezzo: 560, val: 1 },
     { nome: "Pantaloni_Cargo", prezzo: 560, val: 1 },
     { nome: "Pantaloni_Denim_Levis", prezzo: 560, val: 1 },
@@ -23,36 +24,36 @@ var prezzi = [
     { nome: "Scarpe_Lelly_Kelly", prezzo: 3360, val: 1 },
     { nome: "Porta_Pregiata_1", prezzo: 560, val: 1 },
     { nome: "Porta_Pregiata_2", prezzo: 560, val: 1 },
-    { nome: "Porta_Pregiata_3", prezzo: 960, val: 1 },
-    { nome: "Porta_Pregiata_4", prezzo: 1345, val: 1 },
-    { nome: "Cuffie_Gaming", prezzo: 1345, val: 1 },
-    { nome: "Quadro", prezzo: 1400, val: 1 },
-    { nome: "Nintendo_Switch", prezzo: 1280, val: 1 },
-    { nome: "Televisore", prezzo: 2240, val: 1 },
-    { nome: "Orologio_Antico", prezzo: 2560, val: 1 },
-    { nome: "Blocco_di_Lapislazzuli", prezzo: 5375, val: 1 },
-    { nome: "Blocco_di_Diamante", prezzo: 280, val: 1 },
-    { nome: "Blocco_di_Smeraldo", prezzo: 3360, val: 1 },
-    { nome: "Giradischi_Antico", prezzo: 4360, val: 1 },
-    { nome: "Mazza_da_Collezione", prezzo: 5700, val: 1 },
-    { nome: "Katana_da_Collezione", prezzo: 40, val: 1 },
-    { nome: "Coltellino_da_Collezione", prezzo: 64, val: 1 },
-    { nome: "Pistola_da_Collezione", prezzo: 560, val: 1 },
-    { nome: "Taccuino_Normale", prezzo: 560, val: 1 },
-    { nome: "Zaino_Arcobaleno", prezzo: 560, val: 1 },
-    { nome: "Zaino_Adidas", prezzo: 1100, val: 1 },
-    { nome: "Zaino_Eastpack", prezzo: 1120, val: 1 },
-    { nome: "Zaini_Calcio_Serie_A", prezzo: 1120, val: 1 },
-    { nome: "Zaino_Lelly_Kelly", prezzo: 1345, val: 1 },
-    { nome: "Zaino_Trapstar", prezzo: 2016, val: 1 },
-    { nome: "Zaino_Nike", prezzo: 12000, val: 1 },
-    { nome: "Zaino_Lanvin", prezzo: 40000, val: 1 },
-    { nome: "Zaino_Supreme", prezzo: 32000, val: 1 },
-    { nome: "Zaino_Gucci", prezzo: 24000, val: 1 },
-    { nome: "Cappello", prezzo: 3360, val: 64 },
-    { nome: "Pettorina", prezzo: 4360, val: 64 },
-    { nome: "Pantaloni", prezzo: 5700, val: 64 },
-    { nome: "Piedini", prezzo: 40000, val: 64 }
+    { nome: "Porta_Pregiata_3", prezzo: 560, val: 1 },
+    { nome: "Porta_Pregiata_4", prezzo: 560, val: 1 },
+    { nome: "Cuffie_Gaming", prezzo: 560, val: 1 },
+    { nome: "Quadro", prezzo: 960, val: 1 },
+    { nome: "Nintendo_Switch", prezzo: 1345, val: 1 },
+    { nome: "Televisore", prezzo: 1345, val: 1 },
+    { nome: "Orologio_Antico", prezzo: 1400, val: 1 },
+    { nome: "Blocco_di_Lapislazzuli", prezzo: 1280, val: 1 },
+    { nome: "Blocco_di_Diamante", prezzo: 2240, val: 1 },
+    { nome: "Blocco_di_Smeraldo", prezzo: 2560, val: 1 },
+    { nome: "Giradischi_Antico", prezzo: 5375, val: 1 },
+    { nome: "Mazza_da_Collezione", prezzo: 280, val: 1 },
+    { nome: "Katana_da_Collezione", prezzo: 3360, val: 1 },
+    { nome: "Coltellino_da_Collezione", prezzo: 4360, val: 1 },
+    { nome: "Pistola_da_Collezione", prezzo: 5700, val: 1 },
+    { nome: "Zaino_Normale", prezzo: 40, val: 1 },
+    { nome: "Zaino_Arcobaleno", prezzo: 64, val: 1 },
+    { nome: "Zaino_Adidas", prezzo: 560, val: 1 },
+    { nome: "Zaino_Eastpack", prezzo: 560, val: 1 },
+    { nome: "Zaini_Calcio_Serie_A", prezzo: 560, val: 1 },
+    { nome: "Zaino_Lelly_Kelly", prezzo: 1100, val: 1 },
+    { nome: "Zaino_Trapstar", prezzo: 11020, val: 1 },
+    { nome: "Zaino_Nike", prezzo: 1120, val: 1 },
+    { nome: "Zaino_Lanvin", prezzo: 1120, val: 1 },
+    { nome: "Zaino_Supreme", prezzo: 1345, val: 1 },
+    { nome: "Zaino_Gucci", prezzo: 2016, val: 1 },
+    { nome: "Cappello", prezzo: 12000, val: 64 },
+    { nome: "Pettorina", prezzo: 40000, val: 64 },
+    { nome: "Pantaloni", prezzo: 32000, val: 64 },
+    { nome: "Piedini", prezzo: 24000, val: 64 }
   ];
   
   
@@ -99,6 +100,7 @@ Compere[6] = parseInt(document.getElementById("Completo_Scheletro").value);
 Compere[7] = parseInt(document.getElementById("Completo_Creeper").value);
 Compere[8] = parseInt(document.getElementById("Completo_Chanel").value);
 Compere[9] = parseInt(document.getElementById("Cappello_Elegante_Giacca_Burberry").value);
+Compere[10] = parseInt(document.getElementById("Giacca_Burberry").value);
 Compere[10] = parseInt(document.getElementById("Jeans_Zara").value);
 Compere[11] = parseInt(document.getElementById("Pantaloni_Cargo").value);
 Compere[12] = parseInt(document.getElementById("Pantaloni_Denim_Levis").value);
@@ -125,7 +127,7 @@ Compere[32] = parseInt(document.getElementById("Mazza_da_Collezione").value);
 Compere[33] = parseInt(document.getElementById("Katana_da_Collezione").value);
 Compere[34] = parseInt(document.getElementById("Coltellino_da_Collezione").value);
 Compere[35] = parseInt(document.getElementById("Pistola_da_Collezione").value);
-Compere[36] = parseInt(document.getElementById("Taccuino_Normale").value);
+Compere[36] = parseInt(document.getElementById("Zaino_Normale").value);
 Compere[37] = parseInt(document.getElementById("Zaino_Arcobaleno").value);
 Compere[38] = parseInt(document.getElementById("Zaino_Adidas").value);
 Compere[39] = parseInt(document.getElementById("Zaino_Eastpack").value);
