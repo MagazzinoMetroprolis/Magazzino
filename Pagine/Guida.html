@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_Guida.css">
+    <title>Guida</title>
+</head>
+<body>
+    
+    <h1 class="Titolo">Guida:</h1>
+    <a href="../index.html"><button class="back">Torna home</button></a>
+    <img src="Img/Guida.png" alt="" class="logo">
+    <br> <br>
+    <div class="guide">
+
+        <h1>Aziende Pubbliche</h1>
+
+
+        <p>» Assicurarsi che il cliente sia un Direttore oppure un Vice Direttore (dal prefisso in chat) dell' azienda ordinante.<br><br>
+
+            » Chiedere al cliente l'ordine per iscritto. (Vietato prendere ordinazioni oralmente)<br><br>
+            
+            » Nell'ordine devono essere specificati: il nome del cliente, il nome dell'azienda, la data e l'ora reale e i prodotti da acquistare.<br><br>
+            
+                <b>CALCOLO E REGISTRAZIONE SCONTRINO:</b><br><br>
+            
+            » Prendere l'ordine firmato e calcolare il costo totale degli articoli presenti in esso per comunicare al cliente l'importo da pagare.
+            <br><br>
+            » Una volta ricevuti i soldi, si deve emettere lo scontrino al cliente attraverso il seguente comando: 
+            <br><br>
+            /Scontrino Magazzini prezzo nome Rifornimento #00n (Data, Ora)
+            <br><br>
+            Esempio: /Scontrino Magazzini 5000 Dakerino Rifornimento #001 (05/04/2023, 13:00)
+            <br><br>
+            (al posto di #00n bisogna inserire il numero della fattura a cui si è arrivati; ovviamente, se siete nuovi, comincerete dalla Fattura #001)
+            <br><br>
+                <b>COMPILAZIONE FATTURA:</b>
+                <br><br>
+            » Comunicare al cliente che il rifornimento avverrà appena sarà disponibile il Direttore RockMan2000 o il ViceDir. Dakerino.
+            <br><br>
+            » Compilare la Fattura (Vedi a fine guida il modello fattura) e firmare con titolo: Fattura #00n (al posto di n si deve scrivere il numero di fatture a cui si è arrivati: #001 la prima, #002 la seconda e così via)
+            <br><br>
+            » Depositare l'ordine scritto del cliente nella chest "ORDINI DA CONSEGNARE"!
+            <br><br>
+            » Depositare la vostra fattura nella chest "FATTURE DA CONSEGNARE"!<br><br>
+            » <b><Le fatture NON si resettano. ></p></b>
+
+    </div>
+
+    <br><br>
+    
+    <div class="guide">
+
+        <h1>PROCEDURA AZIENDE PRIVATE </h1>
+
+
+        <p>
+
+            La procedura è la stessa. Solo che, prima di iniziare, bisognerà chiedere al cliente la LICENZA dell'azienda e dev'essere firmata da un Finanziere. 
+            <br><br>
+            Successivamente dovrete controllare che sia intestata al cliente che state servendo e che non sia scaduta, se sarà scaduta non potrete accettare l'ordine. 
+            <br><br>
+            » Nell'ordine dovranno essere specificate le coordinate dell'azienda.
+            <br><br>
+            » Avvertire il cliente che sarà tenuto a fornire gli access sulle chest rifornimento alla Direzione Magazzino 
+            <br><br>
+            (RockMan2000 e Dakerino), qualora fosse il suo primo ordine, per ricevere il rifornimento.
+            <br><br>
+
+        </p>
+
+
+    </div>
+
+    <br> <br>
+
+
+    <div class="guide">
+
+        <h1>Aziende Luxury</h1>
+
+        <p>
+            La procedura è sempre la stessa. Solo che, prima di iniziare, bisognerà chiedere al cliente la LICENZA dell'azienda 
+            <br> <br>
+            e deve essere firmata da un membro della Direzione Luxury. Dovrete controllare sempre che essa sia intestata al cliente che state servendo e che non sia scaduta. 
+            <br> <br>
+            » Per calcolare l'importo totale, utilizzare il listino prezzi delle Aziende Luxury.
+            <br> <br>
+            » Nell'ordine e nella fattura dev'essere specificato il n. del locale Luxury. (Esempio: Locale Luxury 3-A)
+            <br> <br>
+        </p>
+
+
+    </div>
+
+    <br> <br>
+
+
+    <div class="guide">
+        <h1>Promemoria</h1>
+
+        <p>
+            - Sarete in servizio 24/24. 
+            <br> <br>
+            - Quando non ci sono ordini da eseguire potrete liberamente girare per la città, ma se riceverete una chiamata da un cliente sarete obbligati a servirlo.
+            <br> <br>
+            - L'ordine sarà accettato solo se supera la soglia di 5000$.
+            <br> <br> 
+            - Da ora la Direzione del Market potrà rilasciare delle licenze per i 2 chioschi presenti nel Market; utilizzerete i prezzi delle aziende pubbliche.
+            <br> <br>
+            - Si verrà ammoniti per ogni fattura sbagliata, per un massimo di 3 ammonimenti (indicati con i warn). Se verranno superati gli ammonimenti citati, si procederà al depex del Dipendente in questione. Sono esenti coloro i quali devono ancora completare la settimana di prova. 
+            <br> <br>
+            - I warn verranno resettati ogni settimana.
+            <br> <br>
+            - è obbligatorio avere sempre con s'è un ordine prova situato nella chest "moduli esempi" in Magazzino e dei quaderni vuoti.
+        </p>
+    </div>
+
+
+    <br> <br>
+
+    <div class="guide">
+
+        <h1>Fatture:</h1>
+
+        <img src="Img/Modello_Fattura.png" alt="" class="fatt">
+
+
+        <p>
+
+            » (Pagina 1) <br> <br>
+
+            §1§lFATTURA <br> <br>
+            <br> <br>
+            §1§oMagazzini
+            <br> <br>
+            
+            §8Cliente§0 <br> <br> <br>
+            
+            
+            §8Azienda§0
+            <br> <br>
+            
+            §8Data§0
+            <br> <br>
+            
+                » (Pagina 2)<br> <br>
+            
+            §1§lFATTURA<br> <br>
+            
+            §1§oMagazzini<br> <br>
+            
+            <br> <br>
+            §8Prodotti acquistati§0
+            
+            <br> <br>
+            §9Importo totale
+            <br> <br>
+            §9$ §9§l
+        </p>
+        
+
+    </div>
+
+
+    <br> <br>
+
+
+    <div class="guide">
+
+        <h1>Ordini</h1>
+
+
+
+        <img src="Img/Modello_Ordine.png" alt="" class="ordini">
+
+        <p>
+
+            Gli Ordini devono essere scritti come la foto allegata sopra. (Identico) 
+            <br> <br>
+            Se l'ordine non sarà identico come l'esempio sovrastante non sarà preso in carico, anche un singolo punto errato comporterà l'annullamento dell'ordine e di conseguenza un warn.
+            <br> <br>
+                Lista dei punti che si devono trovare all'interno:
+                <br> <br>
+            » Nome del Direttore o Vice Direttore.<br>
+            » Nome dell'Azienda. <br>
+            » Data e Ora in cui viene compilato l'ordine.<br>
+            » Oggetti da ordinare scritti nel seguente modo:<br>
+            <br><br>
+            -64xNum Oggetto <br><br>
+            
+            Esempio: 64x8 Hamburger
+
+        </p>
+
+
+    </div>
+
+
+    <br>
+
+
+    <h1 class="firma">La direzione del magazzino</h1>
+    <br><br><br>
+    <footer class="footer">
+        <p class="footer-text"><B>Fatto da EnderBeast_ | @EnderBeast</B></p>
+      </footer>
+</body>
+</html>
