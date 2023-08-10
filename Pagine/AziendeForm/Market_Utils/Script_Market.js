@@ -45,7 +45,7 @@ var prezzi = [
     { nome: "Zaino_Eastpack", prezzo: 560, val: 1 },
     { nome: "Zaini_Calcio_Serie_A", prezzo: 560, val: 1 },
     { nome: "Zaino_Lelly_Kelly", prezzo: 1100, val: 1 },
-    { nome: "Zaino_Trapstar", prezzo: 11020, val: 1 },
+    { nome: "Zaino_Trapstar", prezzo: 1120, val: 1 },
     { nome: "Zaino_Nike", prezzo: 1120, val: 1 },
     { nome: "Zaino_Lanvin", prezzo: 1120, val: 1 },
     { nome: "Zaino_Supreme", prezzo: 1345, val: 1 },
